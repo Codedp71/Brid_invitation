@@ -93,7 +93,7 @@ export default function Hero() {
         <p className={styles.subBlessing}>We cordially invite you to witness the beginning of our forever and celebrate the wedding ceremony of</p>
         <div className="gold-divider" />
         <h1 className={`${styles.names} font-script`}>
-          {couple.groom} <span className={styles.amp}>&</span> {couple.bride}
+          Pankaj(Rayansh) <span className={styles.amp}>&</span> {couple.bride}
         </h1>
         <p className={styles.tagline}>{couple.tagline}</p>
         <div className="ornamental-divider"><span>❖</span></div>
