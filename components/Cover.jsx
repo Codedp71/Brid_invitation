@@ -42,7 +42,7 @@ export default function Cover({ onOpen }) {
         {/* Wax seal with names */}
         <div className={styles.seal}>
           <div className={styles.sealInner}>
-            <span className={`${styles.sealName} font-script`}>Pankaj</span>
+            <span className={`${styles.sealName} font-script`}>Rayansh</span>
             <span className={styles.sealAmp}>&</span>
             <span className={`${styles.sealName} font-script`}>Manpreet</span>
           </div>

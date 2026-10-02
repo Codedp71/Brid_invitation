@@ -6,7 +6,6 @@ import MeetCouple from '../components/MeetCouple';
 import Story from '../components/Story';
 import Events from '../components/Events';
 import Countdown from '../components/Countdown';
-import Gallery from '../components/Gallery';
 import Wishes from '../components/Wishes';
 import Venue from '../components/Venue';
 import MusicToggle from '../components/MusicToggle';
@@ -58,8 +57,6 @@ export default function Home() {
       <MeetCouple />
       <OrnamentalDivider />
       <Story />
-      <OrnamentalDivider />
-      <Gallery />
       <OrnamentalDivider />
       <Events />
       <OrnamentalDivider />

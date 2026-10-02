@@ -6,8 +6,8 @@ const cormorant = Cormorant_Garamond({ subsets: ['latin'], weight: ['300', '400'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata = {
-  title: 'Pankaj & Manpreet — Wedding Invitation',
-  description: 'Join us to celebrate the wedding of Pankaj and Manpreet. 10 November 2026.',
+  title: 'Rayansh & Manpreet — Wedding Invitation',
+  description: 'Join us to celebrate the wedding of Rayansh and Manpreet. 10 November 2026.',
   icons: {
     icon: [
       { url: '/wedding-favicon.png', type: 'image/png' },

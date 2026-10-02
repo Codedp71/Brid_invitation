@@ -52,7 +52,7 @@ export async function POST(request) {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        name: 'Pankaj & Manpreet Wedding Wishes',
+        name: 'Rayansh & Manpreet Wedding Wishes',
         data: { wishes: updatedWishes }
       })
     });

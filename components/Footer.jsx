@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className={`text-center ${styles.footer}`}>
       <h2 className="font-script" style={{ fontSize: '3.5rem', color: 'var(--color-gold)', marginBottom: '8px' }}>
-        Pankaj & Manpreet
+        Rayansh & Manpreet
       </h2>
       <p className={styles.tagline}>Two hearts, one beautiful journey.</p>
       <div className="gold-divider" />
