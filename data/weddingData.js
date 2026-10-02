@@ -4,7 +4,7 @@
 const weddingData = {
   couple: {
     groom: 'Rayansh',
-    bride: 'Manpreet  Kaur',
+    bride: 'Manpreet',
     tagline: 'Two hearts, one beautiful journey.',
     groomBio: 'An aerospace engineer by profession, a drone enthusiast by passion, and now a full-time husband under the supervision of Manpreet! He spent years making drones follow his commands, only to discover that in marriage, he is the one receiving the commands. From flying machines to flying together through life, Rayansh has finally found his perfect co-pilot.',
     brideBio: 'She works with surgeons and doctors at Intuitive, where precision is everything and mistakes are not an option. So naturally, when she met Rayansh, she thought, “Finally, a project I can manage.” She didn’t just say “Yes” to Rayansh; she basically signed up for a lifetime maintenance contract — no warranty, no replacement, and definitely no refund. Ladies and gentlemen, meet the woman who finally grounded the drone guy.',
