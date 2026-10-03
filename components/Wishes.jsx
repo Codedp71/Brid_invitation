@@ -16,14 +16,14 @@ export default function Wishes() {
 
   // Fetch live wishes from global cloud database on mount
   useEffect(() => {
-    fetch('/api/wishes')
+    fetch('/api/wishes', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data) => {
         if (data?.wishes && Array.isArray(data.wishes)) {
           setWishes(data.wishes);
         }
       })
-      .catch(() => {});
+      .catch(() => { });
   }, []);
 
   const handleSubmit = async (e) => {
@@ -75,25 +75,25 @@ export default function Wishes() {
           <form onSubmit={handleSubmit} className={styles.form}>
             <div className={styles.inputGroup}>
               <label htmlFor="name">YOUR NAME <span className={styles.asterisk}>*</span></label>
-              <input 
-                type="text" 
-                id="name" 
+              <input
+                type="text"
+                id="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                placeholder="Full Name" 
-                required 
+                placeholder="Full Name"
+                required
               />
             </div>
 
             <div className={styles.inputGroup}>
               <label htmlFor="message">WISHES & MESSAGES</label>
-              <textarea 
-                id="message" 
+              <textarea
+                id="message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                placeholder="Send us a little note..." 
+                placeholder="Send us a little note..."
                 rows={4}
-                required 
+                required
               />
             </div>
 
@@ -104,7 +104,7 @@ export default function Wishes() {
           </form>
         )}
       </div>
-      
+
       <div className={`${styles.wishesWall} reveal`}>
         <h3 className={styles.wallTitle}>FROM OUR LOVED ONES</h3>
         <div className={styles.masonry}>
